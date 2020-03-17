@@ -47,6 +47,7 @@ class App extends React.Component {
     event.preventDefault();
     const isvalid = this.validate();
     if (isvalid) {
+       console.log(this.state);
       this.setState(intialState);
     }
   };
